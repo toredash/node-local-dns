@@ -49,6 +49,7 @@ import (
 	_ "github.com/coredns/coredns/plugin/timeouts"
 	_ "github.com/coredns/coredns/plugin/trace"
 	_ "github.com/coredns/coredns/plugin/whoami"
+	_ "github.com/toredash/zoneawareness"
 	"sigs.k8s.io/node-local-dns/pkg/version"
 )
 
